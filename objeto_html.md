@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto en JS</title>
+  </head>
+  <body>
+      <h1>Objeto JavaScript</h1>
+      <p>En JavaScript podemos crear objetos de 2 formas:</p>
+      <ol>
+          <li>Con el uso de <b>Objetos Literales</b>, los cuales no son reutilizables, pero ayudan a configurar y pasar valores al flujo de nuestra programación, por ejemplo, piensa en los parámetros que recibe un plugin que ejecuta un carrusel de imágenes.</li>
+          <li>O utilizando <b>Clases</b>, los cuales sí serán reutilizables, lo que permite crear objetos o <b>instancias</b> de la misma en el momento que se requieran, por ejemplo, cuando usas un plugin, ese plugin puede ser una clase, cada vez que ejecutas el plugin, generas una instancia u objeto del mismo.</li>
+      </ol>
+    <script src="js/1_objetos.js"></script>	  
+  </body>
+</html>
