@@ -1,0 +1,57 @@
+nav{
+    background-color: #330066;
+}
+
+nav .brand-logo{
+    font-size: 3.9rem;
+}
+
+body {
+  font-family: 'Fredoka One', cursive;
+}
+
+/* small <= 600px */
+.brand-logo img { max-height: 40px; }
+
+/* medium > 600px */
+@media screen and (min-width: 37.5em) {
+
+}
+
+/* large > 992px */
+@media screen and (min-width: 62em) {
+
+}
+
+/* extralarge > 1200px */
+@media screen and (min-width: 75em) {
+}
+
+#inicio {
+    background-color: coral;
+    text-align: center;
+}
+
+#objetivo {
+    padding: 20px;
+    background-color: fuchsia;
+    text-align: center;
+}
+
+#exhibicion {
+    padding-top: 20px; 
+    text-align: center;
+    background-color: orange;
+}
+
+#contenido {
+    padding-top: 20px; 
+    text-align: center;  
+    background-color: darkcyan;
+}
+
+#contacto {
+    padding-top: 30px; 
+    text-align: center;
+    background-color: darkviolet;
+}
