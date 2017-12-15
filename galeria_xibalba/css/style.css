@@ -1,57 +1,103 @@
-nav{
-    background-color: #330066;
+body {font-family: 'Questrial', sans-serif;}
+
+nav{background-color: #370d5c;}
+
+nav .brand-logo{font-size: 3.9rem;}
+
+.brand-logo img {max-height: 40px;}
+
+#sidenav-overlay {position: relative;}
+
+nav ul a:hover {
+  background-color: #ff6606;
 }
 
-nav .brand-logo{
-    font-size: 3.9rem;
+.side-nav {background-color: rgba(55, 13, 92, .75)}
+
+.side-nav li > a {
+  color: #FFFFFF;
+  text-align: right;
 }
 
-body {
-  font-family: 'Fredoka One', cursive;
+.side-nav li:hover {
+  background-color: #ff6606;
 }
 
-/* small <= 600px */
-.brand-logo img { max-height: 40px; }
-
-/* medium > 600px */
-@media screen and (min-width: 37.5em) {
-
+.side-nav a:hover {
+  transform: translateX(-1.5rem);
+  color: #FFF;
 }
 
-/* large > 992px */
-@media screen and (min-width: 62em) {
-
+.section{
+    width: 100%;
+    min-height: 91vh;
+    padding-top: 5rem;
 }
 
-/* extralarge > 1200px */
-@media screen and (min-width: 75em) {
+#home {
+    background-color: #ff6606;
+    width: 100%;
 }
 
-#inicio {
-    background-color: coral;
+h1{
+   font-size: 2rem;
+   text-align: center;
+   color: white;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+h3{
     text-align: center;
 }
 
 #objetivo {
-    padding: 20px;
-    background-color: fuchsia;
+    background-color: #ffcc00;
     text-align: center;
 }
 
-#exhibicion {
-    padding-top: 20px; 
+h4{
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#recorrido { 
+    background-color: #370d5c;
     text-align: center;
-    background-color: orange;
 }
 
 #contenido {
-    padding-top: 20px; 
-    text-align: center;  
-    background-color: darkcyan;
+    background-color: #f50087;  
+}
+
+#tienda {
+    background-color: #73c2fb;
 }
 
 #contacto {
-    padding-top: 30px; 
+    background-color: #ff6606;
     text-align: center;
-    background-color: darkviolet;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+ul {text-align: left;}
+
+.white-text {text-align: left;}
+
+.light, .page-footer .footer-copyright {
+    background-color: #D45500;
+}
+
+article {
+    text-align: center;
+    font-size: 2rem;
 }
